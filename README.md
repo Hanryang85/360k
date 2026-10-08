@@ -1,0 +1,37 @@
+🧗‍♂️ 360K - Outdoor Activity Crew
+"한계를 넘어, 360도로 확장하는 우리들의 여정"
+익숙한 일상 밖에서 새로운 가능성을 발견하는 액티비티 크루 360K의 공식 소개 페이지입니다.
+📖 프로젝트 소개
+360K 랜딩 페이지는 크루의 비전과 진행 중인 프로젝트(국토종주 등), 그리고 앞으로의 활동(스쿠버 다이빙, 드론 촬영, 스노우보드 등)을 소개하고, 새로운 크루원들의 가입을 안내하기 위해 제작된 정적 웹페이지(Static Website)입니다.
+
+어두운 테마(Dark mode)와 강렬한 오렌지(Accent) 컬러를 활용하여 아웃도어의 역동성과 크루의 에너지를 직관적으로 표현했습니다.
+✨ 주요 섹션 및 기능
+Hero Section: 크루의 아이덴티티와 슬로건을 담은 강렬한 풀스크린 비주얼
+About 360K: 크루가 추구하는 3가지 핵심 가치(Challenge, Connection, Expansion) 소개
+Current Mission: 현재 진행 중인 첫 번째 챕터 '서울-천안 국토종주' 안내
+Upcoming Activities: 다이빙, 드론, 스노우보드 등 앞으로 펼쳐질 확장된 활동 예고
+Gallery: 크루의 활동 모습을 담은 반응형 이미지 갤러리 (클릭 시 Lightbox 형태의 확대 뷰 지원)
+Contact / Join: 오픈채팅 및 인스타그램을 통한 크루 가입 및 문의 연결
+🛠 기술 스택 (Tech Stack)
+본 웹사이트는 별도의 빌드 과정 없이 가볍고 빠르게 동작하도록 설계되었습니다.
+
+HTML5 / CSS3 (Native)
+Tailwind CSS v4 (CDN): 빠르고 일관된 스타일링 구현
+Vanilla JavaScript (ES6): 모바일 메뉴, 라이트박스 갤러리 뷰어, 스크롤 인터랙션 제어
+Intersection Observer API: 스크롤에 따른 부드러운 애니메이션(Reveal) 및 내비게이션 활성화 처리
+Web Fonts: Noto Sans KR (본문) / Barlow Condensed (타이포그래피 포인트)
+⚙️ 커스텀 및 관리 가이드
+웹사이트 운영 시 크루 채널 주소가 생성되거나 변경될 경우, index.html 하단의 JavaScript 영역에서 아래 변수를 수정하면 사이트 전체의 가입/문의 버튼에 일괄 적용됩니다.
+
+// 하단 <script> 태그 내부
+
+const CREW_LINKS = { 
+
+  instagram: "인스타그램 링크", 
+
+  openChat: "오픈채팅 링크" 
+
+};
+📄 라이선스 (License)
+이 프로젝트의 디자인 및 텍스트 콘텐츠의 저작권은 360K CREW에 있습니다.
+(소스코드 자체는 오픈소스로 참고하실 수 있으나, 콘텐츠의 무단 도용을 금합니다.)
