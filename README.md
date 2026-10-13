@@ -1,4 +1,4 @@
-# 🧗‍♂️ 360K \- Outdoor Activity Crew
+# 🧗‍♂️ 360K - Outdoor Activity Crew
 
 > **"한계를 넘어, 360도로 확장하는 우리들의 여정"**  
 > 익숙한 일상 밖에서 새로운 가능성을 발견하는 액티비티 크루 **360K**의 공식 소개 페이지입니다.
@@ -32,15 +32,13 @@
 
 웹사이트 운영 시 크루 채널 주소가 생성되거나 변경될 경우, `index.html` 하단의 JavaScript 영역에서 아래 변수를 수정하면 사이트 전체의 가입/문의 버튼에 일괄 적용됩니다.
 
-// 하단 \<script\> 태그 내부
-
-const CREW\_LINKS \= { 
-
-  instagram: "인스타그램 링크", 
-
-  openChat: "오픈채팅 링크" 
-
+```js
+// 하단 <script> 태그 내부
+const CREW_LINKS = {
+  instagram: "인스타그램 링크",
+  openChat: "오픈채팅 링크"
 };
+```
 
 ## 📄 라이선스 (License)
 
