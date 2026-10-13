@@ -28,6 +28,17 @@
 * **Intersection Observer API**: 스크롤에 따른 부드러운 애니메이션(Reveal) 및 내비게이션 활성화 처리  
 * **Web Fonts**: Noto Sans KR (본문) / Barlow Condensed (타이포그래피 포인트)
 
+## 📁 파일 구조
+
+```
+index.html            메인 랜딩 페이지
+chapter.html          첫 번째 챕터(서울-천안 국토종주) 상세 페이지
+assets/*.webp         챕터 이미지 (엠블럼, 캐릭터, 티셔츠 시안, 가이드북 페이지 미리보기)
+assets/guidebook.pdf  국토도보종주 가이드북 원본 PDF (보기/다운로드용)
+```
+
+챕터 상세 페이지는 `index.html`에서 `chapter.html`로 연결되며, 이미지와 PDF는 필요할 때만 내려받습니다.
+
 ## ⚙️ 커스텀 및 관리 가이드
 
 웹사이트 운영 시 크루 채널 주소가 생성되거나 변경될 경우, `index.html` 하단의 JavaScript 영역에서 아래 변수를 수정하면 사이트 전체의 가입/문의 버튼에 일괄 적용됩니다.
