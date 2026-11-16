@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#100f0e" name="theme-color"/>
+<title>360K — 지난 프로젝트</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&amp;family=Noto+Sans+KR:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<style>
+/* index.html 과 같은 색·서체 값을 씁니다. */
+:root{color-scheme:dark;--accent:#ff7a1a;--ink:#100f0e;--mist:#b8afa7}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ink);color:#f7f2ed;font-family:"Noto Sans KR",system-ui,sans-serif;word-break:keep-all;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
+.shell{width:min(1280px,calc(100% - 80px));margin-inline:auto}
+.display{font-family:"Barlow Condensed",Impact,"Arial Narrow",sans-serif;font-weight:800;line-height:.94;letter-spacing:-.015em}
+.eyebrow{font-size:.75rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+.accent{color:var(--accent)}.mist{color:var(--mist)}
+header{border-bottom:1px solid #ffffff18}
+header .shell{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:80px}
+.brand{font-size:2.5rem;font-style:italic}
+.back{font-size:.875rem;color:#ddd5ce;min-height:44px;display:inline-flex;align-items:center}.back:hover{color:var(--accent)}
+main{padding:85px 0 110px}
+h1{margin:20px 0 0;font-size:clamp(2.1rem,4.2vw,3.8rem);font-weight:800;line-height:1.24;letter-spacing:-.055em}
+.lead{margin:20px 0 0;line-height:1.75;color:var(--mist)}
+.list{list-style:none;margin:56px 0 0;padding:0;display:grid;gap:20px}
+.card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);border:1px solid #ffffff18;border-radius:16px;overflow:hidden;background:#1a1714}
+.art{display:grid;place-items:center;padding:40px;background:#151210;border-right:1px solid #ffffff18}
+.art img{width:min(300px,100%);height:auto}
+.body{padding:48px}
+.done{display:inline-block;border:1px solid #ff7a1a80;border-radius:999px;padding:6px 14px;color:var(--accent)}
+h2{margin:18px 0 0;font-size:clamp(1.5rem,2.6vw,1.875rem);font-weight:700;line-height:1.375;letter-spacing:-.025em}
+.body p{margin:18px 0 0;line-height:1.75;color:var(--mist)}
+dl{margin:28px 0 0;border-block:1px solid #ffffff1a;font-size:.875rem}
+dl div{display:grid;grid-template-columns:76px 1fr;gap:16px;padding:16px 0}
+dl div+div{border-top:1px solid #ffffff1a}
+dt{color:var(--mist)}dd{margin:0}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:52px;margin-top:28px;padding:14px 25px;border-radius:7px;background:var(--accent);color:var(--ink);font-size:.875rem;font-weight:700;transition:background .2s,transform .2s}
+.btn:hover{background:#ff9142;transform:translateY(-2px)}
+.next{margin-top:56px;padding-top:28px;border-top:1px solid #ffffff18;display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;font-size:.875rem}
+.next a{color:var(--accent);min-height:44px;display:inline-flex;align-items:center}
+footer{border-top:1px solid #ffffff26;padding:28px 0;font-size:.75rem;color:var(--mist)}
+@media(max-width:1023px){.shell{width:calc(100% - 48px)}}
+@media(max-width:767px){.card{grid-template-columns:1fr}.art{border-right:0;border-bottom:1px solid #ffffff18;padding:32px}.art img{width:200px}.body{padding:28px}main{padding:56px 0 70px}}
+@media(max-width:639px){.shell{width:calc(100% - 40px)}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}.btn:hover{transform:none}}
+</style>
+</head>
+<body>
+<header>
+<div class="shell">
+<a aria-label="360K 홈" class="display brand" href="index.html">360<span class="accent">K</span></a>
+<a class="back" href="index.html#mission">← 현재 프로젝트로</a>
+</div>
+</header>
+<main>
+<div class="shell">
+<p class="eyebrow accent">ARCHIVE / COMPLETED MISSIONS</p>
+<h1>우리가 지나온 챕터.</h1>
+<p class="lead">360K가 끝까지 마친 프로젝트를 이곳에 남깁니다.<br/>챕터가 끝날 때마다 하나씩 늘어납니다.</p>
+<ol class="list">
+<li>
+<article class="card">
+<div class="art"><img alt="360K 국토종주 삼각 엠블럼" height="803" src="assets/emblem.webp" width="1100"/></div>
+<div class="body">
+<span class="eyebrow done">MISSION 001 · 완료</span>
+<h2>서울 to 천안<br/>국토종주 프로젝트</h2>
+<p>광화문에서 천안역까지, 두 도시를 걸어서 이은 360K의 첫 번째 이야기. 가이드북과 크루 캐릭터, 엠블럼, 티셔츠 시안을 그대로 볼 수 있습니다.</p>
+<dl>
+<div><dt>코스</dt><dd>광화문 이순신 동상 — 천안역</dd></div>
+<div><dt>일정</dt><dd>2026년 10월 30일 ~ 11월 1일</dd></div>
+<div><dt>여정</dt><dd>약 100km · 2박 3일 도보 원정</dd></div>
+</dl>
+<a class="btn" href="chapter.html" target="_blank">첫 번째 챕터 자세히 보기 <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+</li>
+</ol>
+<div class="next"><span class="mist">다음 챕터 · 몰디브 마스터 리브어보드 7박 8일 · 2026.12.14 ~ 12.21</span><a href="index.html#mission">현재 프로젝트 보기 →</a></div>
+</div>
+</main>
+<footer><div class="shell">© 2026 360K CREW. ALL RIGHTS RESERVED.</div></footer>
+</body>
+</html>
