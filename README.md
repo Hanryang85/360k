@@ -13,7 +13,7 @@
 
 1. **Hero Section:** 크루의 아이덴티티와 슬로건을 담은 강렬한 풀스크린 비주얼  
 2. **About 360K:** 크루가 추구하는 3가지 핵심 가치(Challenge, Connection, Expansion) 소개  
-3. **Current Mission:** 현재 진행 중인 첫 번째 챕터 '서울-천안 국토종주' 안내  
+3. **Current Mission:** 현재 준비 중인 두 번째 챕터 '몰디브 마스터 리브어보드'(7박 8일, 2026.12.14 승선 ~ 12.21 하선) 안내  
 4. **Upcoming Activities:** 다이빙, 드론, 스노우보드 등 앞으로 펼쳐질 확장된 활동 예고  
 5. **Gallery:** 크루의 활동 모습을 담은 반응형 이미지 갤러리 (클릭 시 Lightbox 형태의 확대 뷰 지원)  
 6. **Contact / Join:** 오픈채팅 및 인스타그램을 통한 크루 가입 및 문의 연결
@@ -32,12 +32,14 @@
 
 ```
 index.html            메인 랜딩 페이지
-chapter.html          첫 번째 챕터(서울-천안 국토종주) 상세 페이지
+archive.html          완료된 프로젝트 목록 페이지
+chapter.html          첫 번째 챕터(서울-천안 국토종주, 완료) 상세 페이지
+chapter2.html         두 번째 챕터(몰디브 리브어보드) 원정 개요 페이지 — 스타일은 chapter.html 의 <head> 를 그대로 사용
 assets/*.webp         챕터 이미지 (엠블럼, 캐릭터, 티셔츠 시안, 가이드북 페이지 미리보기)
 assets/guidebook.pdf  국토도보종주 가이드북 원본 PDF (보기/다운로드용)
 ```
 
-챕터 상세 페이지는 `index.html`에서 `chapter.html`로 연결되며, 이미지와 PDF는 필요할 때만 내려받습니다.
+완료된 프로젝트는 `index.html` → `archive.html` → `chapter.html` 순으로 연결되며, 이미지와 PDF는 필요할 때만 내려받습니다.
 
 ## ⚙️ 커스텀 및 관리 가이드
 

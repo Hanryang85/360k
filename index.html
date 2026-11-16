@@ -970,14 +970,7 @@
 .chapter-inquiry:hover{color:#ff7a1a}
 .chapter-entry-note{font-size:11px;line-height:1.9;color:#a79a90;margin-top:15px}
 .chapter-entry-note span{display:block;color:#887c73;font-size:10px}
-.chapter-fallback{position:fixed;inset:0;width:min(1320px,calc(100% - 32px));height:calc(100dvh - 32px);max-height:none;max-width:none;padding:0;border:1px solid #665043;border-radius:12px;background:#100f0e;color:#fff;overflow:hidden;margin:auto}
-.chapter-fallback::backdrop{background:#000d;backdrop-filter:blur(8px)}
-.chapter-fallback-bar{height:50px;padding:7px 14px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #ffffff20;background:#251b14}
-.chapter-fallback-bar p{font-size:11px;color:#c4b5aa}.chapter-fallback-actions{display:flex;gap:12px;align-items:center;flex-shrink:0}
-.chapter-fallback-actions a{font-size:11px;color:#ff9342;text-decoration:underline;text-underline-offset:3px}
-.chapter-fallback-actions .icon-btn{min-width:34px;min-height:34px}
-.chapter-fallback iframe{display:block;width:100%;height:calc(100% - 50px);border:0;background:#100f0e}
-@media(max-width:639px){.chapter-entry{gap:8px 20px}.chapter-entry .btn{font-size:12px;padding:13px 18px;gap:8px}.chapter-inquiry{font-size:12px}.chapter-fallback{width:100%;height:100dvh;border-radius:0;border:0}.chapter-fallback-bar p{max-width:165px;font-size:10px}.chapter-fallback-actions{gap:8px}}
+@media(max-width:639px){.chapter-entry{gap:8px 20px}.chapter-entry .btn{font-size:12px;padding:13px 18px;gap:8px}.chapter-inquiry{font-size:12px}}
 </style></head>
 <body>
 <a class="skip-link" href="#main">본문 바로가기</a>
@@ -1003,6 +996,7 @@
 <nav aria-label="주 메뉴" class="hidden lg:flex items-center gap-9">
 <a class="nav-link" href="#about">크루 소개</a>
 <a class="nav-link" href="#mission">프로젝트</a>
+<a class="nav-link" href="archive.html">지난 프로젝트</a>
 <a class="nav-link" href="#gallery">액티비티 갤러리</a>
 <a class="btn btn-primary" href="#contact">크루 가입하기</a>
 </nav>
@@ -1011,13 +1005,13 @@
 </button>
 </div>
 <nav aria-label="모바일 메뉴" class="mobile-menu lg:hidden" hidden="" id="mobile-menu">
-<div class="shell py-3"><a href="#about">크루 소개</a><a href="#mission">프로젝트</a><a href="#activities">앞으로의 액티비티</a><a href="#gallery">액티비티 갤러리</a><a class="text-accent font-bold" href="#contact">크루 가입하기</a></div>
+<div class="shell py-3"><a href="#about">크루 소개</a><a href="#mission">프로젝트</a><a href="archive.html">지난 프로젝트</a><a href="#activities">앞으로의 액티비티</a><a href="#gallery">액티비티 갤러리</a><a class="text-accent font-bold" href="#contact">크루 가입하기</a></div>
 </nav>
 </header>
 <main id="main">
-<!-- 02. HERO / 예시 아웃도어 사진이며 실제 서울–천안 코스 사진이 아닙니다. -->
+<!-- 02. HERO / 예시 아웃도어 사진이며 실제 360K 활동 사진이 아닙니다. -->
 <section aria-labelledby="hero-title" class="hero" id="home">
-<img alt="" class="hero-photo" fetchpriority="high" height="1467" src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&amp;fit=crop&amp;w=2200&amp;q=85" width="2200"/>
+<img alt="" class="hero-photo" fetchpriority="high" height="1467" src="https://images.unsplash.com/photo-1743657106155-5d968270fbb8?auto=format&amp;fit=crop&amp;w=2200&amp;q=85" width="2200"/>
 <div class="shell">
 <div class="flex items-center gap-3 mb-7"><span class="w-7 h-px bg-accent"></span><p class="eyebrow text-accent">ALL DIRECTIONS. ONE CREW.</p></div>
 <h1 class="display hero-title" id="hero-title"><span>GO BEYOND.</span><span class="text-accent">GO 360K.</span></h1>
@@ -1026,11 +1020,11 @@
 </div>
 <div aria-hidden="true" class="hero-stamp"><span class="display text-[2.4rem]">360°</span><span class="text-xs tracking-wide mt-1">KEEP EXPLORING</span></div>
 <div class="hero-bottom"><div class="shell flex items-end justify-between gap-6">
-<div><p class="eyebrow text-accent mb-2">OUR FIRST CHAPTER</p><p class="text-sm sm:text-base tracking-wide">서울 <span class="text-white/40 mx-2">—</span> 천안 <span class="hidden sm:inline text-white/50 ml-3">국토종주 프로젝트</span></p></div>
+<div><p class="eyebrow text-accent mb-2">OUR NEXT CHAPTER</p><p class="text-sm sm:text-base tracking-wide">몰디브 <span class="text-white/40 mx-2">—</span> 리브어보드 <span class="hidden sm:inline text-white/50 ml-3">2026.12.14 ~ 12.21</span></p></div>
 <div class="hero-rule hidden sm:block mb-2 mx-8"></div><span class="eyebrow text-white/55 mb-1">SCROLL TO EXPLORE</span>
 </div></div>
 </section>
-<div aria-hidden="true" class="ticker"><div class="ticker-inner"><span>BEYOND THE EVERYDAY</span><b>✳</b><span>SEOUL TO CHEONAN</span><b>✳</b><span>KEEP MOVING, KEEP EXPLORING</span><b>✳</b><span>360K CREW</span></div></div>
+<div aria-hidden="true" class="ticker"><div class="ticker-inner"><span>BEYOND THE EVERYDAY</span><b>✳</b><span>MALDIVES LIVEABOARD</span><b>✳</b><span>KEEP MOVING, KEEP EXPLORING</span><b>✳</b><span>360K CREW</span></div></div>
 <!-- 03. ABOUT -->
 <section aria-labelledby="about-title" class="section-pad" id="about">
 <div class="shell">
@@ -1046,25 +1040,26 @@
 </div>
 </div>
 </section>
-<!-- 04. CURRENT MISSION / 실제 일정·거리·경유지 확정 후 내용을 수정하세요. -->
+<!-- 04. CURRENT MISSION / 완료된 프로젝트는 archive.html 로 옮기고 이 카드만 다음 프로젝트로 바꿉니다. -->
 <section aria-labelledby="mission-title" class="section-pad border-y border-white/10 bg-[#151210]" id="mission">
 <div class="shell">
-<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-5 mb-10"><div><p class="eyebrow text-accent mb-5">02 / CURRENT MISSION</p><h2 class="section-title" id="mission-title">첫 번째 챕터, 길 위에서.</h2></div><span class="eyebrow text-mist">THE JOURNEY STARTS HERE</span></div>
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-5 mb-10"><div><p class="eyebrow text-accent mb-5">02 / CURRENT MISSION</p><h2 class="section-title" id="mission-title">두 번째 챕터, 바다 속으로.</h2></div><span class="eyebrow text-mist">FROM THE ROAD TO THE OCEAN</span></div>
 <article class="mission-card grid lg:grid-cols-2 reveal">
 <div class="mission-image">
-<img alt="배낭을 메고 산길을 걷는 사람들 — 활동 분위기 예시" height="1467" loading="lazy" src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&amp;fit=crop&amp;w=2200&amp;q=85" width="2200"/>
-<span class="absolute z-10 left-7 top-7 rounded-full border border-white/35 bg-ink/30 px-4 py-2 eyebrow backdrop-blur">MISSION 001</span>
-<div class="absolute z-10 left-7 right-7 bottom-8 sm:left-10 sm:right-10"><p class="display text-[clamp(3.8rem,6vw,5.5rem)]">SEOUL <span class="text-accent text-[.5em]">TO</span><br/>CHEONAN.</p><div class="route-line mt-6"><span></span></div><div class="flex justify-between mt-3 text-sm text-white/75"><span>서울 · 출발</span><span>천안 · 도착</span></div></div>
+<img alt="주황빛 산호 군락 위를 지나는 스쿠버 다이버 — 활동 분위기 예시" height="1372" loading="lazy" src="https://images.unsplash.com/photo-1741540543008-8e7acbe48737?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" width="1200"/>
+<span class="absolute z-10 left-7 top-7 rounded-full border border-white/35 bg-ink/30 px-4 py-2 eyebrow backdrop-blur">MISSION 002</span>
+<div class="absolute z-10 left-7 right-7 bottom-8 sm:left-10 sm:right-10"><p class="display text-[clamp(3.8rem,6vw,5.5rem)]">MALDIVES<br/>LIVEABOARD.</p><div class="route-line mt-6"><span></span></div><div class="flex justify-between mt-3 text-sm text-white/75"><span>12월 14일 · 승선</span><span>12월 21일 · 하선</span></div></div>
 </div>
 <div class="p-7 sm:p-10 lg:p-12 flex flex-col justify-center">
-<span class="eyebrow text-accent">지금, 우리가 준비하는 도전</span><h3 class="mt-4 text-2xl sm:text-3xl font-bold tracking-tight leading-snug">서울 to 천안<br/>국토종주 프로젝트</h3>
-<p class="text-mist mt-5 leading-7">지도 위의 두 도시를 우리의 여정으로 잇습니다. 낯선 풍경을 만나고, 함께 움직이며 완성할 360K의 첫 번째 이야기.</p>
-<dl class="mt-7 divide-y divide-white/10 border-y border-white/10 text-sm"><div class="grid grid-cols-[76px_1fr] gap-4 py-4"><dt class="text-mist">코스</dt><dd>광화문 이순신 동상 — 천안역</dd></div><div class="grid grid-cols-[76px_1fr] gap-4 py-4"><dt class="text-mist">일정</dt><dd>2026년 10월 30일 ~ 11월 1일</dd></div><div class="grid grid-cols-[76px_1fr] gap-4 py-4"><dt class="text-mist">여정</dt><dd>약 100km · 2박 3일 도보 원정 계획</dd></div></dl>
+<span class="eyebrow text-accent">지금, 우리가 준비하는 도전</span><h3 class="mt-4 text-2xl sm:text-3xl font-bold tracking-tight leading-snug">몰디브 마스터<br/>리브어보드 프로젝트</h3>
+<p class="text-mist mt-5 leading-7">서울에서 천안까지 걸었던 발걸음이 이번엔 물속으로 향합니다. 배에서 먹고 자며 매일 다이빙하는, 360K의 두 번째 이야기.</p>
+<dl class="mt-7 divide-y divide-white/10 border-y border-white/10 text-sm"><div class="grid grid-cols-[76px_1fr] gap-4 py-4"><dt class="text-mist">장소</dt><dd>말레(MLE) 승·하선</dd></div><div class="grid grid-cols-[76px_1fr] gap-4 py-4"><dt class="text-mist">선박</dt><dd>Maldives · Master Liveaboards 운영</dd></div><div class="grid grid-cols-[76px_1fr] gap-4 py-4"><dt class="text-mist">일정</dt><dd>2026년 12월 14일(월) ~ 21일(월)</dd></div><div class="grid grid-cols-[76px_1fr] gap-4 py-4"><dt class="text-mist">여정</dt><dd>7박 8일 · 최대 17회 다이빙</dd></div><div class="grid grid-cols-[76px_1fr] gap-4 py-4"><dt class="text-mist">자격</dt><dd>어드밴스드 이상 · 로그 60회 이상</dd></div></dl>
 <div class="chapter-entry">
-<a aria-label="첫 번째 챕터 자세히 보기 (새 창)" class="btn btn-primary" data-open-chapter="" href="chapter.html" target="360K_CHAPTER_ONE">첫 번째 챕터 자세히 보기<svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M14 4h6v6M20 4 10 14M20 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5"></path></svg></a>
-<a class="chapter-inquiry" href="#contact">프로젝트 참여 문의 <span aria-hidden="true">→</span></a>
+<a class="btn btn-primary" href="chapter2.html">두 번째 챕터 자세히 보기</a>
+<a class="chapter-inquiry" href="#contact">참여 문의 <span aria-hidden="true">→</span></a>
+<a class="chapter-inquiry" href="archive.html">지난 프로젝트 보기 <span aria-hidden="true">→</span></a>
 </div>
-<p class="chapter-entry-note">가이드북 · 크루 캐릭터 · 엠블럼 · 티셔츠 시안<span>새 창으로 열립니다.</span></p>
+<p class="chapter-entry-note">첫 번째 챕터 서울 to 천안 국토종주는 11월 1일에 마쳤습니다.<span>그때의 기록도 그대로 남아 있어요.</span></p>
 </div>
 </article>
 </div>
@@ -1074,7 +1069,7 @@
 <div class="shell">
 <div class="grid sm:grid-cols-2 gap-6 items-end mb-10"><div><p class="eyebrow text-accent mb-5">03 / WHAT'S NEXT</p><h2 class="section-title" id="activities-title">우리의 다음은,<br/>어디든.</h2></div><p class="text-mist leading-7 sm:max-w-sm sm:justify-self-end">길 위에서 시작한 호기심을 더 넓은 세계로.<br/>360K가 앞으로 펼쳐갈 액티비티입니다.</p></div>
 <div class="grid md:grid-cols-3 gap-5 reveal">
-<article class="activity-card"><div class="flex justify-between items-center"><span class="activity-icon"><svg aria-hidden="true" class="icon"><use href="#i-dive"></use></svg></span><span class="eyebrow text-mist">01 / OCEAN</span></div><p class="display text-5xl mt-9 mb-5">DIVE DEEP.</p><h3 class="text-xl font-bold">스쿠버 다이빙</h3><p class="text-mist mt-3 leading-7">수면 아래 펼쳐지는 낯선 세계.<br/>새로운 호흡으로 만나는 바다.</p><p class="eyebrow text-accent mt-8 pt-5 border-t border-white/10">COMING NEXT · 준비 중</p></article>
+<article class="activity-card"><div class="flex justify-between items-center"><span class="activity-icon"><svg aria-hidden="true" class="icon"><use href="#i-dive"></use></svg></span><span class="eyebrow text-mist">01 / OCEAN</span></div><p class="display text-5xl mt-9 mb-5">DIVE DEEP.</p><h3 class="text-xl font-bold">스쿠버 다이빙</h3><p class="text-mist mt-3 leading-7">수면 아래 펼쳐지는 낯선 세계.<br/>새로운 호흡으로 만나는 바다.</p><p class="eyebrow text-accent mt-8 pt-5 border-t border-white/10">NEXT UP · 2026년 12월 몰디브</p></article>
 <article class="activity-card"><div class="flex justify-between items-center"><span class="activity-icon"><svg aria-hidden="true" class="icon"><use href="#i-drone"></use></svg></span><span class="eyebrow text-mist">02 / SKY</span></div><p class="display text-5xl mt-9 mb-5">SEE WIDER.</p><h3 class="text-xl font-bold">드론 촬영</h3><p class="text-mist mt-3 leading-7">시선을 높이면 달라지는 풍경.<br/>우리의 여정을 새로운 앵글로.</p><p class="eyebrow text-accent mt-8 pt-5 border-t border-white/10">COMING NEXT · 준비 중</p></article>
 <article class="activity-card"><div class="flex justify-between items-center"><span class="activity-icon"><svg aria-hidden="true" class="icon"><use href="#i-snow"></use></svg></span><span class="eyebrow text-mist">03 / SNOW</span></div><p class="display text-5xl mt-9 mb-5">RIDE FREE.</p><h3 class="text-xl font-bold">스노우보드</h3><p class="text-mist mt-3 leading-7">차가운 공기, 가장 뜨거운 순간.<br/>하얀 설원에 그리는 나만의 라인.</p><p class="eyebrow text-accent mt-8 pt-5 border-t border-white/10">COMING NEXT · 준비 중</p></article>
 </div>
@@ -1090,7 +1085,7 @@
 <button aria-label="스노우보드 예시 사진 크게 보기" class="gallery-item" data-caption="겨울을 가르는 순간" data-gallery="" type="button"><img alt="눈 덮인 숲에서 점프하는 스노보더" height="1600" loading="lazy" src="https://images.unsplash.com/photo-1741732311874-812a7dc4ccde?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" width="1200"/><span aria-hidden="true" class="zoom-mark"><svg class="icon"><use href="#i-plus"></use></svg></span><span class="gallery-label"><span class="eyebrow text-white/75">03 / SNOW DAYS</span><span class="block text-lg font-bold mt-2">겨울을 가르는 순간</span></span></button>
 <button aria-label="산악 항공 촬영 예시 사진 크게 보기" class="gallery-item" data-caption="시선 너머의 풍경" data-gallery="" type="button"><img alt="하늘에서 내려다본 숲과 산맥의 풍경" height="675" loading="lazy" src="https://images.unsplash.com/photo-1717115151377-903ced1853c8?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" width="1200"/><span aria-hidden="true" class="zoom-mark"><svg class="icon"><use href="#i-plus"></use></svg></span><span class="gallery-label"><span class="eyebrow text-white/75">04 / A DIFFERENT PERSPECTIVE</span><span class="block text-xl font-bold mt-2">시선 너머의 풍경</span></span></button>
 </div>
-<p class="text-xs text-mist mt-5 leading-6">페이지의 사진은 액티비티를 소개하기 위한 예시 이미지이며, 실제 360K 활동 및 서울–천안 코스 사진은 아닙니다.</p>
+<p class="text-xs text-mist mt-5 leading-6">페이지의 사진은 액티비티를 소개하기 위한 예시 이미지이며, 실제 360K 활동 사진은 아닙니다.</p>
 </div>
 </section>
 <!-- 07. CONTACT -->
@@ -1105,7 +1100,7 @@
 <footer class="border-t border-white/15 pt-10 pb-7">
 <div class="shell">
 <div class="flex flex-col sm:flex-row justify-between items-start gap-8"><div><a aria-label="360K 홈" class="display italic text-[3rem]" href="#home">360<span class="text-accent">K</span></a><p class="mt-3 text-sm text-mist">한계를 넘어, 모든 방향으로.</p></div><div class="flex flex-wrap gap-6 sm:gap-8 text-sm"><a class="channel-link hover:text-accent inline-flex items-center gap-2" data-channel="instagram" href="#contact"><svg aria-hidden="true" class="icon"><use href="#i-instagram"></use></svg>Instagram</a><a class="channel-link hover:text-accent inline-flex items-center gap-2" data-channel="openChat" href="#contact"><svg aria-hidden="true" class="icon"><use href="#i-chat"></use></svg>오픈채팅방</a><a class="hover:text-accent inline-flex items-center min-h-11" href="#home">맨 위로</a></div></div>
-<div class="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between gap-5 text-xs text-mist"><p>© <span id="year">2026</span> 360K CREW. ALL RIGHTS RESERVED.</p><details class="sm:text-right"><summary class="cursor-pointer hover:text-white">예시 이미지 출처 · Unsplash</summary><div class="mt-3 flex flex-col gap-2"><a href="https://unsplash.com/photos/hikers-on-trail-toward-mountain-peaks-Yizrl9N_eDA" rel="noopener noreferrer" target="_blank">Trekking · Toomas Tartes</a><a href="https://unsplash.com/photos/hikers-trek-across-a-snowy-mountain-ridge-yJfRmG5b6hQ" rel="noopener noreferrer" target="_blank">Hiking · madan gc</a><a href="https://unsplash.com/photos/scuba-divers-swim-with-a-school-of-fish-underwater-RffDw-vfcYM" rel="noopener noreferrer" target="_blank">Scuba · Nuraini Arsad</a><a href="https://unsplash.com/photos/snowboarder-doing-a-jump-in-a-snowy-forest-dNN6qAo9ptY" rel="noopener noreferrer" target="_blank">Snowboard · LOGAN WEAVER</a><a href="https://unsplash.com/photos/an-aerial-view-of-a-mountain-range-with-trees-in-the-foreground-YjSm9o7G6CY" rel="noopener noreferrer" target="_blank">Aerial · Michael McKay</a></div></details></div>
+<div class="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between gap-5 text-xs text-mist"><p>© <span id="year">2026</span> 360K CREW. ALL RIGHTS RESERVED.</p><details class="sm:text-right"><summary class="cursor-pointer hover:text-white">예시 이미지 출처 · Unsplash</summary><div class="mt-3 flex flex-col gap-2"><a href="https://unsplash.com/photos/a-boat-races-towards-an-island-in-turquoise-waters-RKMVOSGWMC8" rel="noopener noreferrer" target="_blank">Maldives · Ibrahim Shabil</a><a href="https://unsplash.com/photos/scuba-diver-explores-vibrant-coral-reef-underwater-9ETgZN20WrA" rel="noopener noreferrer" target="_blank">Reef dive · South Malé Atoll</a><a href="https://unsplash.com/photos/hikers-trek-across-a-snowy-mountain-ridge-yJfRmG5b6hQ" rel="noopener noreferrer" target="_blank">Hiking · madan gc</a><a href="https://unsplash.com/photos/scuba-divers-swim-with-a-school-of-fish-underwater-RffDw-vfcYM" rel="noopener noreferrer" target="_blank">Scuba · Nuraini Arsad</a><a href="https://unsplash.com/photos/snowboarder-doing-a-jump-in-a-snowy-forest-dNN6qAo9ptY" rel="noopener noreferrer" target="_blank">Snowboard · LOGAN WEAVER</a><a href="https://unsplash.com/photos/an-aerial-view-of-a-mountain-range-with-trees-in-the-foreground-YjSm9o7G6CY" rel="noopener noreferrer" target="_blank">Aerial · Michael McKay</a></div></details></div>
 </div>
 </footer>
 <!-- 사진 확대: ESC·바깥 영역 클릭으로 닫기, 좌우 방향키로 이동 -->
@@ -1118,7 +1113,7 @@
 <div aria-atomic="true" aria-live="polite" class="toast" id="toast" role="status"></div>
 <noscript><p style="padding:20px;text-align:center;color:#ff7a1a">메뉴 펼치기와 사진 확대 기능을 사용하려면 브라우저에서 JavaScript를 허용해 주세요.</p></noscript>
 
-<dialog aria-label="첫 번째 챕터 상세 보기" class="chapter-fallback" id="chapter-fallback"><div class="chapter-fallback-bar"><p>별도 창이 차단되어 페이지 안에서 표시합니다.</p><div class="chapter-fallback-actions"><a href="chapter.html" id="chapter-new-tab" rel="noopener" target="_blank">새 탭에서 열기</a><button aria-label="챕터 상세 보기 닫기" class="icon-btn" id="chapter-fallback-close" type="button"><svg aria-hidden="true" class="icon"><use href="#i-close"></use></svg></button></div></div><iframe id="chapter-frame" title="360K 첫 번째 챕터 — 원정 가이드와 크루 아카이브"></iframe></dialog><script>(() => {
+<script>(() => {
 
     "use strict";
     // 운영 시 아래 두 주소만 입력하면 본문·푸터의 모든 채널 버튼에 반영됩니다.
@@ -1221,56 +1216,6 @@
         document.querySelectorAll(".reveal").forEach(element => revealObserver.observe(element));
       }
     }
-  
-    // Open the detail view from the SAME file; renaming or moving this HTML is safe.
-    // A query parameter preserves reloads, native new-tab opening and local checklist storage.
-    const chapterURL = new URL("chapter.html", location.href);
-    const fallbackDialog = document.getElementById("chapter-fallback");
-    const chapterFrame = document.getElementById("chapter-frame");
-    const entryLinks = document.querySelectorAll("[data-open-chapter]");
-    let chapterWindow = null;
-    let chapterReturnFocus = null;
-    document.getElementById("chapter-new-tab").href = chapterURL.href;
-    entryLinks.forEach(link => {
-      link.href = chapterURL.href;
-      link.addEventListener("click", event => {
-        // Preserve the browser's Ctrl/Cmd-click and middle-click behavior.
-        if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-        event.preventDefault();
-        chapterReturnFocus = link;
-        if (chapterWindow && !chapterWindow.closed) {
-          chapterWindow.focus(); return;
-        }
-        const width = Math.min(1280, Math.max(360, screen.availWidth - 80));
-        const height = Math.min(920, Math.max(580, screen.availHeight - 100));
-        const left = Math.max(0, Math.round((screen.availWidth - width) / 2));
-        const top = Math.max(0, Math.round((screen.availHeight - height) / 2));
-        try {
-          chapterWindow = window.open(chapterURL.href, "360K_CHAPTER_ONE", `popup=yes,width=${width},height=${height},left=${left},top=${top},resizable=yes,scrollbars=yes`);
-        } catch { chapterWindow = null; }
-        if (chapterWindow) {
-          try { chapterWindow.focus(); } catch {}
-          return;
-        }
-        // A blocked popup still exposes every chapter feature inside a native dialog.
-        if (!chapterFrame.getAttribute("src")) chapterFrame.src = chapterURL.href;
-        if (!fallbackDialog.open) fallbackDialog.showModal();
-      });
-    });
-    document.getElementById("chapter-fallback-close").addEventListener("click", () => fallbackDialog.close());
-    document.getElementById("chapter-new-tab").addEventListener("click", () => {
-      // The native link handles new-tab opening without an async popup request.
-      // Keep the fallback available until the visitor decides to close it.
-    });
-    fallbackDialog.addEventListener("close", () => {
-      // Retain the iframe to preserve in-memory state where storage is unavailable.
-      if (chapterReturnFocus) chapterReturnFocus.focus({preventScroll:true});
-    });
-    addEventListener("message", event => {
-      if (event.source === chapterFrame.contentWindow && event.data && event.data.type === "360k-close-chapter") {
-        fallbackDialog.close();
-      }
-    });
 
 })();</script></body>
 </html>
